@@ -1,0 +1,2 @@
+"use strict";var food={Drink:{Wine:{},Schnaps:{}},Fruit:{Red:{Cherry:{},Strawberry:{}},Yellow:{Banana:{},Pineapple:{}}}},tree=document.querySelector("#tree");function createTree(e,t){var r=Object.keys(t),n=document.createElement("ul");e.append(n),r.forEach(function(e){var r=document.createElement("li");r.textContent=e,n.append(r),0!==Object.keys(t["".concat(e)]).length&&createTree(r,t["".concat(e)])})}createTree(tree,food);
+//# sourceMappingURL=mate-academy_js_tree-from-object-DOM.464e3780.js.map
